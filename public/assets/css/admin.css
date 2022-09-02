@@ -1,0 +1,35 @@
+@import url(https://unpkg.com/@webpixels/css@1.1.5/dist/index.css);
+
+/* Bootstrap Icons */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.4.0/font/bootstrap-icons.min.css");
+
+/* content-header style */
+.content-header {
+    z-index: 10;
+}
+
+.navi-toogle-btn {
+    width: 40px;
+    height: 40px;
+    background: none;
+}
+
+.navi-toogle-btn i {
+    font-size: 25px;
+}
+
+.navbar-user {
+    position: relative;
+}
+
+.avatar-parent-child {
+    position: relative;
+    z-index: 5;
+}
+
+.dropdown-menu {
+    top: 99%;
+    right: 0px;
+    z-index: 1;
+    min-width: 8rem;
+}
