@@ -7,8 +7,11 @@ use Illuminate\Http\Request;
 
 class Dashboard extends Controller
 {
+    public $contentData = [];
+
     public function index()
     {
-        return view('admin.dashboard');
+        $this->contentData['title'] = 'Top';
+        return view('admin.dashboard.top', $this->contentData);
     }
 }

@@ -8,11 +8,10 @@
     </div>
   </a>
 
-  <div class="dropdown-menu">
-    <a href="#" class="dropdown-item">Profile</a>
-    <a href="#" class="dropdown-item">Settings</a>
-    <a href="#" class="dropdown-item">Billing</a>
+  <div class="dropdown-menu bg-gray-800">
+    <a href="#" class="dropdown-item text-white"><i class="bi bi-person-fill"></i>&ensp;Profile</a>
+    <a href="#" class="dropdown-item text-white"><i class="bi bi-gear-fill"></i>&ensp;Settings</a>
     <hr class="dropdown-divider">
-    <a href="#" class="dropdown-item">Logout</a>
+    <a href="#" class="dropdown-item text-white"><i class="bi bi-box-arrow-left-fill"></i>&ensp;Logout</a>
   </div>
 </div>
